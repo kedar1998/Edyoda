@@ -219,9 +219,9 @@ const Hero = () => {
 
                 {/* FOOTER SECTION */}
                 <div className="mt-5">
-                    <div className="flex justify-between">
-                        <button className="text-[#F77171] border-2 border-[#F77171] rounded-md w-40 py-1">CANCEL</button>
-                        <button className="bg-[#47BA68] w-40 py-1 text-white">PROCEED TO PAY</button>
+                    <div className="flex flex-col-reverse md:space-y-0 md:flex-row justify-between">
+                        <button className="text-[#F77171] border-2 border-[#F77171] rounded-md w-full md:w-40 py-1 mt-3 md:mt-0">CANCEL</button>
+                        <button className="bg-[#47BA68] w-full md:w-40 py-1 text-white rounded-md">PROCEED TO PAY</button>
                     </div>
                     <img src={razorpay} alt="razorpay" className="mt-3 w-24" />
                 </div>
